@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritish Mehta - Data Analytics Portfolio</title>
+    
+    <!-- External Libraries -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="gradient-bg text-white p-4 sticky top-0 z-10 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Pritish Mehta</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-blue-200 transition nav-link">About</a>
+                <a href="#skills" class="hover:text-blue-200 transition nav-link">Skills</a>
+                <a href="#experience" class="hover:text-blue-200 transition nav-link">Experience</a>
+                <a href="#projects" class="hover:text-blue-200 transition nav-link">Projects</a>
+                <a href="#contact" class="hover:text-blue-200 transition nav-link">Contact</a>
+            </div>
+            <button class="md:hidden text-xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-white py-24 px-4 relative hero-bg">
+        <div class="container mx-auto flex flex-col md:flex-row items-center relative z-10">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <h1 class="text-5xl font-bold text-gray-800 leading-tight">Data Analytics Professional</h1>
+                <p class="text-xl text-gray-600 mt-4">Transforming complex data into actionable insights that drive business decisions</p>
+                <div class="mt-8 flex space-x-4">
+                    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition btn-glow">Get in Touch</a>
+                    <a href="#projects" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-semibold transition">View Projects</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://avatars.githubusercontent.com/u/37667762?s=400&u=f9a3a28e74252b32078243deedf0d156959423ce&v=4" alt="Profile Image" class="rounded-full w-120 h-120 object-cover shadow-xl parallax" data-depth="0.2">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-gray-50 section-transition">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 text-gradient" data-aos="fade-up">About Me</h2>
+            <div class="bg-white rounded-xl shadow-md p-8 neumorph" data-aos="fade-up" data-aos-delay="200">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    I am a Data Analyst with 4+ years of experience in the financial and energy industries. My expertise includes managing multiple audits, evaluating data, detecting trends and hazards, and developing dashboards and automated workflows that boost productivity and precision.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    With a Master's degree in Data Analytics from the National College of Ireland, I have strong academic foundations complemented by practical industry experience. I've worked on projects related to forecasting, big data analysis, and machine learning applications.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    I'm passionate about finding patterns in complex datasets and translating them into strategic business insights. My background in both financial auditing and energy operations gives me a unique perspective on data governance, compliance, and operational efficiency.
+                </p>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="https://github.com/pritishmehta" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-lg flex items-center hover:bg-gray-900 transition">
+                        <i class="fab fa-github mr-2"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/pritish-mehta/" target="_blank" class="bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center hover:bg-blue-800 transition">
+                        <i class="fab fa-linkedin mr-2"></i> LinkedIn
+                    </a>
+                    <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg flex items-center hover:bg-green-700 transition">
+                        <i class="fas fa-file-alt mr-2"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4 bg-white section-transition">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 text-gradient" data-aos="fade-up">Technical Skills</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 rounded-xl p-6 shadow-md card-3d" data-aos="fade-right">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-code text-blue-600 mr-2"></i> Programming Languages
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Python</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">R</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">SQL</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Java</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">C++</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Scala</span>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-md card-3d" data-aos="fade-left">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-chart-line text-blue-600 mr-2"></i> Data Visualization
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Tableau</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Power BI</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Excel</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Matplotlib</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Google Analytics</span>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-md card-3d" data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-cloud text-blue-600 mr-2"></i> Cloud & Databases
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">AWS</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Azure</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Oracle</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">SQLite</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Git</span>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-md card-3d" data-aos="fade-left" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                        <i class="fas fa-brain text-blue-600 mr-2"></i> Data Science
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Machine Learning</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Statistical Analysis</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Time Series Forecasting</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Pandas</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 bg-gray-50 section-transition">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 text-gradient" data-aos="fade-up">Work Experience</h2>
+            
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute h-full w-0.5 bg-blue-600 left-6 md:left-1/2 transform md:-translate-x-1/2"></div>
+                
+                <!-- EirGrid -->
+                <div class="relative flex flex-col md:flex-row items-center mb-16" data-aos="fade-up">
+                    <div class="flex md:w-1/2 justify-end mb-8 md:mb-0 md:pr-8">
+                        <div class="bg-white p-6 rounded-xl shadow-md md:text-right w-full shine">
+                            <h3 class="text-xl font-bold text-gray-800">Operations Analyst</h3>
+                            <h4 class="text-lg text-blue-600 font-semibold">EirGrid</h4>
+                            <p class="text-sm text-gray-500 mt-1">Jan 2023 - Present • Dublin, Ireland</p>
+                            <ul class="list-disc md:list-inside text-gray-700 mt-4 space-y-2">
+                                <li>Manage multiple audits centered on compliance and operational efficiency</li>
+                                <li>Analyze power system data to identify trends and improvement opportunities</li>
+                                <li>Create dynamic Power BI dashboards to track KPIs and communicate insights</li>
+                                <li>Support data governance initiatives and lead risk assessments</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center timeline-dot">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="md:w-1/2 md:pl-8"></div>
+                </div>
+                
+                <!-- EY -->
+                <div class="relative flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="md:w-1/2 md:pr-8"></div>
+                    <div class="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center timeline-dot">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="flex md:w-1/2 md:pl-8">
+                        <div class="bg-white p-6 rounded-xl shadow-md w-full shine">
+                            <h3 class="text-xl font-bold text-gray-800">Audit Analyst</h3>
+                            <h4 class="text-lg text-blue-600 font-semibold">EY</h4>
+                            <p class="text-sm text-gray-500 mt-1">Jun 2019 - Jul 2021 • Bengaluru, India</p>
+                            <ul class="list-disc list-inside text-gray-700 mt-4 space-y-2">
+                                <li>Conducted research and analysis on data, generating comprehensive reports</li>
+                                <li>Performed thorough data validation from diverse global suppliers</li>
+                                <li>Contributed to 7+ IT Audit/Consulting projects across various industries</li>
+                                <li>Gained exposure to international audit standards and complex environments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-white section-transition">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 text-gradient" data-aos="fade-up">Featured Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Stock Market Project -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="0">
+                    <div class="zoom-container">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Stock Market Dashboard" class="w-full h-48 object-cover zoom-effect">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-gray-800">Stock Market Prediction Dashboard</h3>
+                            <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">ARIMA Model</span>
+                        </div>
+                        <p class="text-gray-600 mt-3">
+                            Developed a forecasting model using R to predict performance of top 5 US stocks with 97.8% accuracy, and built a real-time dashboard using Flask deployed on Render.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">R</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Flask</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Time Series</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">API Integration</span>
+                        </div>
+                        <div class="mt-6 flex space-x-3">
+                            <a href="https://stock-market-dashboard-flask.onrender.com/" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fas fa-link mr-1"></i> Demo
+                            </a>
+                            <a href="https://github.com/pritishmehta/Stock_Market_Dashboard_Flask" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fab fa-github mr-1"></i> Code
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sign Language Recognition -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="zoom-container">
+                        <img src="https://media.istockphoto.com/id/1320929324/vector/cheerful-men-and-women-gesturing-and-smiling-heart-sing-and-thumb-up-approval-symbol-okay.jpg?s=2048x2048&w=is&k=20&c=UDC22fbDZgkqhlqDR2oCYBunCnfPkDMMuYlYMiZLj2Y=" alt="Sign language Recognition" class="w-full h-48 object-cover zoom-effect">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-gray-800"><a href="https://github.com/pritishmehta/ResearchProject">Sign Language Recognition</a></h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">Deep Learning</span>
+                        </div>
+                        <p class="text-gray-600 mt-3">
+                            Developed a deep learning model combining 3D-CNN and LSTM to translate ASL to English text, utilizing TensorFlow, OpenCV, and MediaPipe for real-time gesture recognition.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Python</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">TensorFlow</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">OpenCV</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">CNN+LSTM</span>
+                        </div>
+                        <div class="mt-6 flex space-x-3">
+                            <a href="https://github.com/pritishmehta/ResearchProject" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fab fa-github mr-1"></i>Code
+                            </a>
+                            <a href="https://norma.ncirl.ie/6226/1/pritishmehta.pdf" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fas fa-file-alt mr-1"></i> Research Paper
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Big Data Analytics -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="zoom-container">
+                        <img src="https://images.unsplash.com/photo-1705077031869-51b60754302a?q=80&w=2609&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Big Data Weather Analysis" class="w-full h-48 object-cover zoom-effect">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-gray-800"><a href="https://github.com/pritishmehta/DIA/blob/main/PMEH20184409-Report.pdf">Big Data Weather Analysis</a></h3>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Big Data</span>
+                        </div>
+                        <p class="text-gray-600 mt-3">
+                            Analyzed crop mapping dataset using AWS EC2 and PCA. Aggregated weather data of 20+ counties using Hadoop MapReduce and correlated weather patterns with mortality data.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">AWS</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Hadoop</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">MapReduce</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">PCA</span>
+                        </div>
+                        <div class="mt-6 flex space-x-3">
+                            <a href="https://github.com/pritishmehta/DIA/blob/main/PMEH20184409-Report.pdf" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fas fa-file-alt mr-1"></i> Report
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Spotify Recommendation -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="zoom-container">
+                        <img src="https://images.unsplash.com/photo-1614149162883-504ce4d13909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" alt="Spotify Recommendation Engine" class="w-full h-48 object-cover zoom-effect">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-gray-800">Spotify Recommendation Engine</h3>
+                            <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">ML</span>
+                        </div>
+                        <p class="text-gray-600 mt-3">
+                            Employed K-means clustering and Random Forest algorithms to predict songs based on popularity, and utilized data visualization tools to present findings to stakeholders.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Python</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">K-means</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Random Forest</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">Spotify API</span>
+                        </div>
+                        <div class="mt-6 flex space-x-3">
+                            <a href="https://github.com/pritishmehta/DMML1/tree/main/Project" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fab fa-github mr-1"></i> Code
+                            </a>
+                            <a href="https://github.com/pritishmehta/DMML1/blob/main/Project/x20184409_PPT.pptx" class="text-blue-600 hover:text-blue-800 transition flex items-center hover-underline-animation">
+                                <i class="fas fa-file-alt mr-1"></i> Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-50 section-transition">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 text-gradient" data-aos="fade-up">Get In Touch</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md neumorph" data-aos="fade-right">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4 float">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Email</p>
+                                <a href="mailto:pitishmehta18@gmail.com" class="text-blue-600 hover:underline">pitishmehta18@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4 float">
+                                <i class="fas fa-phone text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Phone</p>
+                                <a href="tel:+353899813925" class="text-blue-600 hover:underline">+353 89 981 3925</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4 float">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Location</p>
+                                <p class="text-gray-800">Dublin, Ireland</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex space-x-4">
+                        <a href="https://github.com/pritishmehta" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-gray-900 transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pritish-mehta/" target="_blank" class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md neumorph" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Send A Message</h3>
+                    <form id="contact-form" action="https://formsubmit.co/pritishmehta18@gmail.com" method="POST">
+                        <!-- Honeypot to prevent spam -->
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <!-- Disable captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+                        
+                        <!-- Success page (optional - remove if you want to stay on the same page) -->
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+                        
+                        <div class="mb-4 input-group">
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                            <label for="name" class="block text-gray-700 font-medium">Name</label>
+                        </div>
+                        <div class="mb-4 input-group">
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                            <label for="email" class="block text-gray-700 font-medium">Email</label>
+                        </div>
+                        <div class="mb-4 input-group">
+                            <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                            <label for="subject" class="block text-gray-700 font-medium">Subject</label>
+                        </div>
+                        <div class="mb-6 input-group">
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required></textarea>
+                            <label for="message" class="block text-gray-700 font-medium">Message</label>
+                        </div>
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition w-full btn-glow submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold">Pritish Mehta</h3>
+                    <p class="text-gray-400 mt-2">Data Analyst & Analytics Professional</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#about" class="text-gray-300 hover:text-white transition nav-link">About</a>
+                    <a href="#skills" class="text-gray-300 hover:text-white transition nav-link">Skills</a>
+                    <a href="#experience" class="text-gray-300 hover:text-white transition nav-link">Experience</a>
+                    <a href="#projects" class="text-gray-300 hover:text-white transition nav-link">Projects</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition nav-link">Contact</a>
+                </div>
+            </div>
+            <hr class="border-gray-700 my-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400">© 2025 Pritish Mehta. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="https://github.com/pritishmehta" target="_blank" class="text-gray-300 hover:text-white transition">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pritish-mehta/" target="_blank" class="text-gray-300 hover:text-white transition">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="mailto:pitishmehta18@gmail.com" class="text-gray-300 hover:text-white transition">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom cursor elements -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Page loader -->
+    <div class="page-loader" id="page-loader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>

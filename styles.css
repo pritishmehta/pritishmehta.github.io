@@ -1,0 +1,140 @@
+/* Advanced Custom CSS for Pritish Mehta's Portfolio - Dark Theme */
+
+/* Modern Variable Setup */
+:root {
+    --primary: #4da3ff;
+    --primary-dark: #3084e0;
+    --primary-light: #66b3ff;
+    --secondary: #2c3e50;
+    --accent: #ff6b6b;
+    --light: #1a1a1a;
+    --dark: #101010;
+    --darker: #0a0a0a;
+    --text: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --gradient-primary: linear-gradient(135deg, var(--primary), var(--primary-light));
+    --card-bg: #1e1e1e;
+    --card-border: #333333;
+    --body-bg: #121212;
+    --muted-bg: #2d2d2d;
+    --transition-fast: 0.3s ease;
+    --transition-medium: 0.5s ease;
+    --transition-slow: 0.8s ease;
+    --border-radius-sm: 0.25rem;
+    --border-radius-md: 0.5rem;
+    --border-radius-lg: 1rem;
+    --border-radius-xl: 2rem;
+    --border-radius-full: 9999px;
+  }
+  
+  /* Force dark theme overrides */
+  html {
+    color-scheme: dark;
+  }
+  
+  /* Global Styling */
+  body {
+    background-color: var(--body-bg);
+    color: var(--text);
+  }
+  
+  /* Override all Tailwind background classes */
+  .bg-white, .bg-gray-50, .bg-gray-100, .bg-gray-200 {
+    background-color: var(--card-bg) !important;
+  }
+  
+  section {
+    background-color: var(--body-bg) !important;
+  }
+  
+  section:nth-child(even) {
+    background-color: var(--dark) !important;
+  }
+  
+  /* Override all Tailwind text color classes */
+  h1, h2, h3, h4, h5, h6,
+  .text-gray-800, .text-gray-900 {
+    color: var(--text) !important;
+  }
+  
+  .text-gray-600, .text-gray-700 {
+    color: var(--text-secondary) !important;
+  }
+  
+  /* Navigation */
+  nav {
+    background: var(--darker) !important;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color: var(--darker) !important;
+  }
+  
+  /* Neuomorphic cards */
+  .neumorph {
+    background-color: var(--card-bg) !important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), 
+                -5px -5px 15px rgba(40, 40, 40, 0.2) !important;
+  }
+  
+  /* Project Cards */
+  .project-card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--card-border) !important;
+  }
+  
+  /* Skills section */
+  .bg-blue-100, .bg-purple-100, .bg-green-100 {
+    background-color: var(--muted-bg) !important;
+  }
+  
+  .text-blue-800, .text-purple-800, .text-green-800 {
+    color: var(--primary-light) !important;
+  }
+  
+  /* Form Inputs */
+  input, textarea {
+    background-color: var(--muted-bg) !important;
+    color: var(--text) !important;
+    border-color: var(--card-border) !important;
+  }
+  
+  .input-group label {
+    background-color: var(--card-bg) !important;
+    color: var(--text-secondary) !important;
+  }
+  
+  /* Contact form icons */
+  .bg-blue-100, .w-12.h-12.rounded-full.bg-blue-100 {
+    background-color: var(--muted-bg) !important;
+  }
+  
+  /* Page loader */
+  .page-loader {
+    background-color: var(--darker) !important;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--darker) !important;
+  }
+  
+  /* Mobile menu */
+  .mobile-nav {
+    background: rgba(10, 10, 10, 0.95) !important;
+    backdrop-filter: blur(10px);
+  }
+  
+  .mobile-menu a {
+    color: var(--text) !important;
+  }
+  
+  /* Section transitions */
+  .section-transition::after {
+    background: linear-gradient(to bottom, transparent, var(--body-bg)) !important;
+  }
